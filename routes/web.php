@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 Route::get('/comics', function () {
     $comics = config('comics-db.comics');
-    return view('comics', compact('comics'));
+    return view('sites.comics', compact('comics'));
 })->name('comics');
