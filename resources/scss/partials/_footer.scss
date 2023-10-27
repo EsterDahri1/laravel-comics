@@ -1,0 +1,21 @@
+@use './variables' as *;
+
+#upperFooter {
+    height: 400px;
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+
+    li {
+        color: rgba(255, 255, 255, 0.57)
+    }
+}
+
+;
+
+#lowerFooter {
+    height: 100px;
+    background-color: $dc_dark;
+
+}
